@@ -14,3 +14,19 @@ body {
 h1,h3 {
   color: rgb(255, 255, 255);
 }
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.botaoEdata {
+  background-color: rgba(255, 255, 255, 0.115);
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 3px;
+}
+#botao {
+  padding-top: 10px;
+}
