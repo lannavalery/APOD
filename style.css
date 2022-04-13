@@ -1,0 +1,16 @@
+* {
+  font-family: 'Anek Kannada', sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body {
+  background-color: rgb(8, 33, 78);
+  /*background-image: linear-gradient(to top, hsl(219deg 84% 31%), #fefeff);
+  background-attachment: fixed;*/
+}
+h1,h3 {
+  color: rgb(255, 255, 255);
+}
