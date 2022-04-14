@@ -1,24 +1,29 @@
 * {
   font-family: 'Anek Kannada', sans-serif;
 }
+
 header {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 body {
   background-color: rgb(8, 33, 78);
-  /*background-image: linear-gradient(to top, hsl(219deg 84% 31%), #fefeff);
-  background-attachment: fixed;*/
 }
-h1,h3 {
+
+h1,
+h3,
+#conteudo {
   color: rgb(255, 255, 255);
 }
+
 main {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 .botaoEdata {
   background-color: rgba(255, 255, 255, 0.115);
   padding: 10px 5px;
@@ -27,6 +32,42 @@ main {
   flex-direction: column;
   border-radius: 3px;
 }
+
 #botao {
   padding-top: 10px;
+}
+
+#resultado {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#fotoVideo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#foto {
+  width: 1000px;
+  height: 1100px;
+  border-radius: 3px;
+}
+
+#video {
+  width: 1200px;
+  height: 600px;
+}
+
+@media(max-width:700px) {
+
+  #foto,
+  #video {
+    width: 350px;
+    height: 500px;
+  }
 }
